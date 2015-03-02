@@ -2,7 +2,7 @@
 .title span,
 .modal,
 .fancybox-skin {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 body,
 .label,
@@ -26,7 +26,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
 .block .block-title strong
 {
     font-family: Georgia, serif;
-    color: #ffffff;
+    color: #000000;
 }
 .side-area .widget-title,
 .recent-post-mini a,
@@ -55,7 +55,7 @@ strong,
 .shopping-cart .cart-popup .subtotal,
 .data-table thead th,
 .recent-post-mini a{
-    color: #ffffff;
+    color: #000000;
 }
 a,
 .f-icon i:before,
@@ -69,7 +69,7 @@ a,
 }
 .side-area-icon i:before, 
 .menu-icon i:before {
-    color: #ffffff;
+    color: #d3d3d3;
 }
 a:hover,
 .button:hover,
@@ -110,20 +110,13 @@ ul.list-arrow li:hover,
 span.active,
 strong.active,
 p.active,
-.children .current-cat > a,
-/*version 1.1.0 start*/.vmegamenu a:hover,
-.vmegamenu > li:hover > a
-/*version 1.1.0 end*/ {
-    color: #999999;
+.children .current-cat > a {
+    color: #ed1c2e;
 }
-/*version 1.1.0 start*/.tp-leftarrow.default:hover:before, 
-.tp-rightarrow.default:hover:before {
-    color: #999999 !important;
-}
-/*version 1.1.0 end*/.checkout-progress li.active,
+.checkout-progress li.active,
 .dark .product-categories .open-this:hover {
-    color: #999999;
-    border-color: #999999;
+    color: #ed1c2e;
+    border-color: #ed1c2e;
 }
 .button:hover,
 .pager li>a:hover, 
@@ -133,7 +126,7 @@ p.active,
 .link-compare:hover,
 input.input-text:focus,
 textarea:focus {
-    border-color: #999999;
+    border-color: #ed1c2e;
 }
 .toolbar .sorter .grid,
 .toolbar .sorter .list {
@@ -148,30 +141,30 @@ textarea:focus {
 .product-view .product-shop .link-wishlist:hover, 
 .product-view .product-shop .link-compare:hover,
 .block-with-ico.ico-position-top i {
-    background-color: #999999;
+    background-color: #ed1c2e;
 }
 .price {
-    color: #1884eb;
+    color: #ee3b3b;
 }
 .button,
 .link-wishlist, 
 .link-compare {
-    color: #FFFFFF;
+    color: #000000;
     
 }
 .button.filled,
 .button.filled:hover,
 .button.white:hover {
-    background-color: #999999;
-    border-color: #999999;
-    color: #6f6f6f;
+    background-color: #ed1c2e;
+    border-color: #ed1c2e;
+    color: #ffffff;
 }
 .product-view .product-shop .link-wishlist:hover:before, 
 .product-view .product-shop .link-compare:hover:before {
-    color: #6f6f6f;
+    color: #ffffff;
 }
 /*---Top Bar Settings---*/.header-container .top-bar {
-    background: #000000;
+    background: #ffffff;
 }
 .header-container .top-bar .container {
     border-color: #dbdbdb;
@@ -189,61 +182,43 @@ textarea:focus {
 .top-bar .form-language i:before,
 .top-bar .form-currency i:before,
 .top-bar li.blog:before {
-    color: #6f6f6f;
+    color: #8e8e8e;
 }
-/*---Top Bar Settings End---*//*-----Version 1.1.0 start-----*//*---Main Header Styles---*/.header-container {
-background-color: #000000;
-}
-/*-----version 1.1.0 end-----*//*---Main Navigation Styles---*/.header-wrapper .main-nav {
-    background-color: #000000;
+/*---Top Bar Settings End---*/
+/*---Main Navigation Styles---*/.header-wrapper .main-nav {
+    background-color: #ffffff;
 }
 .fixed-header a, 
 .main-nav a,
 .fixed-header .menu > li.menu-full-width .nav-sublist-dropdown .container ul > li .nav-sublist ul li:before,
-.main-nav .menu > li.menu-full-width .nav-sublist-dropdown .container ul > li .nav-sublist ul li:before,
-/*version 1.1.0 start*/.vmegamenu a,
-.vmegamenu li.menu-full-width .nav-sublist-dropdown .container ul > li .nav-sublist ul li:before
-/*version 1.1.0 end*/ {
-    color: #ffffff;    
+.main-nav .menu > li.menu-full-width .nav-sublist-dropdown .container ul > li .nav-sublist ul li:before {
+    color: #000000;    
 }
 .fixed-header .menu > li > a > span.cat-label.cat-label-label1, .main-nav .menu > li > a > span.cat-label.cat-label-label1,
 .fixed-header .menu > li .nav-sublist-dropdown ul li a > span > span.cat-label.cat-label-label1, .main-nav .menu > li .nav-sublist-dropdown ul li a > span > span.cat-label.cat-label-label1,
-.mobile-nav .sw-mobile-menu li > a span.cat-label.cat-label-label1,
-/*version 1.1.0 start*/.nav-category-list > li > a > span.cat-label.cat-label-label1,
-.nav-category-list > li .nav-sublist-dropdown .container ul li a > span span.cat-label.cat-label-label1,
-.nav-category-mobile-list .sw-mobile-menu > li > a span.cat-label.cat-label-label1,
-.nav-category-mobile-list .sw-mobile-menu > li > ul li a > span span.cat-label.cat-label-label1
-/*version 1.1.0 end*/ {
-background: #000000;
+.mobile-nav .sw-mobile-menu li > a span.cat-label.cat-label-label1 {
+background: #f5b507;
 color: #ffffff;
 }
 .fixed-header .menu > li > a > span.cat-label.cat-label-label2, .main-nav .menu > li > a > span.cat-label.cat-label-label2,
 .fixed-header .menu > li .nav-sublist-dropdown ul li a > span > span.cat-label.cat-label-label2, .main-nav .menu > li .nav-sublist-dropdown ul li a > span > span.cat-label.cat-label-label2,
-.mobile-nav .sw-mobile-menu li > a span.cat-label.cat-label-label2,
-/*version 1.1.0 start*/.nav-category-list > li > a > span.cat-label.cat-label-label2,
-.nav-category-list > li .nav-sublist-dropdown .container ul li a > span span.cat-label.cat-label-label2,
-.nav-category-mobile-list .sw-mobile-menu > li > a span.cat-label.cat-label-label2,
-.nav-category-mobile-list .sw-mobile-menu > li > ul li a > span span.cat-label.cat-label-label2
-/*version 1.1.0 end*/ {
-background: #3b3b3b;
+.mobile-nav .sw-mobile-menu li > a span.cat-label.cat-label-label2 {
+background: #db2920;
 color: #ffffff;
 }
 .fixed-header {
-    background-color: #000000;
-    background: url(http://localhost/joteysharee/media/smartwave/transparency/default/1.png);
+    background-color: #ffffff;
+    background: url(http://newsmartwave.net/magento/legenda/media/smartwave/transparency/default/1.png);
     background-repeat: repeat;
 }
 .fixed-header .menu > li .nav-sublist-dropdown, .main-nav .menu > li .nav-sublist-dropdown,
-.fixed-header .menu > li.menu-item .nav-sublist-dropdown .nav-sublist li > a, .main-nav .menu > li.menu-item .nav-sublist-dropdown .nav-sublist li > a,
-/*version 1.1.0 start*/.nav-category-list > li .nav-sublist-dropdown,
-.nav-category-list > li.menu-item .nav-sublist-dropdown .nav-sublist li > a
-/*version 1.1.0 end*/ {
-    background-color: #000000;
-    background: url(http://localhost/joteysharee/media/smartwave/transparency/default/1.png);
+.fixed-header .menu > li.menu-item .nav-sublist-dropdown .nav-sublist li > a, .main-nav .menu > li.menu-item .nav-sublist-dropdown .nav-sublist li > a{
+    background-color: #ffffff;
+    background: url(http://newsmartwave.net/magento/legenda/media/smartwave/transparency/default/1.png);
     background-repeat: repeat;
 }
 /*---Main Navigation Styles End---*//*---Footer Top Styles Start---*/.footer-top {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 .footer-top,
 .footer-top a,
@@ -255,7 +230,7 @@ color: #ffffff;
 .footer-top .footer-products-list li a:hover,
 .footer-top .tweet a,
 .dark .footer-top .footer-products-list li a:hover {
-    color: #3b3b3b;
+    color: #ed1c2e;
 }
 .footer-top h1,
 .footer-top .h1,
@@ -272,7 +247,7 @@ color: #ffffff;
 .footer-top .footer-title,
 .footer-top .recent-post-mini a,
 .footer-top .footer-products-list li a {
-    color: #ffffff;
+    color: #000000;
 }
 .footer-top .footer-products-list > li,
 .footer-top .block-content .tweet,
@@ -285,7 +260,7 @@ color: #ffffff;
 }
 /*---Footer Top Styles End---*/
 /*---Footer Bottom Styles Start---*/.footer-bottom {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 .footer-bottom,
 .footer-bottom a,
@@ -297,7 +272,7 @@ color: #ffffff;
 .footer-bottom .footer-products-list li a:hover,
 .footer-bottom .tweet a,
 .dark .footer-bottom .footer-products-list li a:hover {
-    color: #1884eb;
+    color: #ed1c2e;
 }
 .footer-bottom h1,
 .footer-bottom .h1,
@@ -314,7 +289,7 @@ color: #ffffff;
 .footer-bottom .footer-title,
 .footer-bottom .recent-post-mini a,
 .footer-bottom .footer-products-list li a {
-    color: #ffffff;
+    color: #000000;
 }
 .footer-bottom .footer-products-list > li,
 .footer-bottom .block-content .tweet,
@@ -325,7 +300,7 @@ color: #ffffff;
     border-color: #dbdbdb;
 }
 /*---Footer Bottom Styles End---*//*---Footer Copyright Styles Start---*/.copyright {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 .copyright,
 .copyright a {
@@ -335,10 +310,5 @@ color: #ffffff;
     border-color: #dbdbdb;
 }
 /*---Footer Copyright Styles End---*/.tabs .tab-title.opened {
-    border-bottom-color: #000000;
-}
-/*---Magento 1.9.1.0 ConfigurableColorSweaches---*/.configurable-swatch-list .hover .swatch-link,
-.configurable-swatch-list .selected .swatch-link,
-.swatch-link:hover {
-    border-color: #999999;
+    border-bottom-color: #ffffff;
 }
